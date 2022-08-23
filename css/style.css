@@ -34,6 +34,7 @@ img{
 
 header{
 	display: flex;
+	justify-content: space-between;
 	background-color: rgb(235, 172, 12);
 	padding: 10px;
 	
@@ -41,12 +42,18 @@ header{
 
 header h1{
 	width: 25%;
-	
+		
 }
 
 header nav{
 	width: 70%;
 	
+}
+
+nav ul{
+	padding: 0;
+	list-style-type: none;	
+	text-align: right;
 }
 
 
