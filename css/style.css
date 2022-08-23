@@ -19,4 +19,16 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+body{
+	font-family: 'Passion One', cursive;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+}
+
+.ico-logo{
+	width: 40px;
+	margin: 0 20px 0 0;
+}
 
