@@ -79,6 +79,35 @@ nav ul li a:hover{
 	color: rgb(15, 236, 77);
 }
 
+main{
+	display: flex;
+	/* VH corresponde a % da tela do dispositivo, 70vh = 70% da altura da tela */
+	min-height: 70vh;
+	/* separar os blocos justify-content  */
+	justify-content: space-between;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+aside{
+	padding: 20px;
+	width: 25%;
+	background-color: #ed18e9;
+}
+
+footer p{
+	text-align: center;
+	padding: 20px;	
+	background-color: #f72606;
+}
+
+.conteudo{
+	padding: 20px;
+	width: 70%;
+	background-color: blue;
+}
+
 .ico-logo{
 	width: 40px;
 	margin: 0 20px 0 0;
