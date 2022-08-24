@@ -93,19 +93,24 @@ main{
 aside{
 	padding: 20px;
 	width: 25%;
-	background-color: #ed18e9;
+	background-color: #106534;
 }
-
+footer{
+	background-color: #f72606;
+	width: 90%;
+	margin: 0 auto;
+	
+}
 footer p{
 	text-align: center;
-	padding: 20px;	
-	background-color: #f72606;
+	padding: 10px;	
+	
 }
 
 .conteudo{
 	padding: 20px;
 	width: 70%;
-	background-color: blue;
+	background-color: rgb(71, 151, 123);
 }
 
 .ico-logo{
