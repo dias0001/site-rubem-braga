@@ -96,8 +96,10 @@ aside{
 	background-color: #106534;
 }
 footer{
-	background-color: #f72606;
+	background-color: rgb(235, 172, 12);
 	width: 90%;
+	height: 150px;
+	margin-top: 40px;
 	margin: 0 auto;
 	
 }
