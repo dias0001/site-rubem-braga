@@ -177,6 +177,26 @@ footer p{
 	width: 40px;
 	margin: 0 20px 0 0;
 }
+.modal{
+	position: fixed;
+	top: 20%;
+	right: 0;
+	width: 200px;
+	padding: 10px;
+	background-color: #ff0;
+	border: #f90;
+}
+
+.modal .fechar{
+	position: absolute;
+	right: 10px;
+	top: 4px;
+	width: 20px;
+	padding: 2px;
+	background-color: #900;
+	color:  #fbf8f7;
+	text-align: center;
+}
 
 #img-rubembraga{
 	margin-top: -150px;
