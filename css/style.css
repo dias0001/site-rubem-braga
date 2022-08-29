@@ -177,7 +177,7 @@ footer p{
 .conteudo, .conteudo-home{
 	padding: 20px;
 	width: 70%;	
-	background-color: rgba(100, 190, 150, 0.5);
+	background-color: rgba(100, 190, 150, 0.9);
 }
 
 .ico-logo{
@@ -221,5 +221,19 @@ footer p{
 	margin-top: -250px;
 }
 
-	
+/* layout para tablets e celulares */
+@media only screen and (max-width: 992px) {
+	main{
+		flex-direction: column-reverse;
+	}
+	aside, .conteudo, .conteudo-home{
+	width: 100%;
+}
+
+nav{
+	display: none;
+}
+}
+
+
 
