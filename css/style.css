@@ -23,6 +23,8 @@ body{
 	font-family: 'Passion One', cursive;
 	padding-top: 80px;
 	background-color: black;
+	background-image: url(../imagem/mancha.png);
+	background-size: 200px;
 }
 
 h1, h2, h3, h4, h5, h6{
