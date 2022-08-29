@@ -37,15 +37,13 @@ img{
 
 header{
 	position: fixed; 
-	top: 0;
-	
+	top: 0;	
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	padding: 10px 0 10px 0;
 	background-color: #f5aa0a;	
-	box-shadow: #622603 0 5px 5px;
-	
+	box-shadow: #622603 0 5px 5px;	
 }
 
 header h1{
@@ -185,8 +183,8 @@ footer p{
 .modal{
 	position: fixed;
 	top: 20%;
-	right: 0;
-	width: 100px;
+	right: 10px;
+	width: 200px;
 	padding: 10px;
 	background-color: #e37a15;
 	border: white solid 1px;
