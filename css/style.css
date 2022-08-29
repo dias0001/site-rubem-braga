@@ -24,8 +24,9 @@ body{
 	padding-top: 80px;
 	background-color: black;
 	background-image: url(../imagem/mancha.png);
-	background-size: 70%;
+	background-size: 50%;
 	background-repeat: no-repeat;
+	background-position: 100% 300px;
 }
 
 h1, h2, h3, h4, h5, h6{
