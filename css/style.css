@@ -101,7 +101,6 @@ main{
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-
 }
 
 p{
@@ -178,6 +177,7 @@ footer p{
 .conteudo, .conteudo-home{
 	padding: 20px;
 	width: 70%;	
+	background-color: rgba(100, 190, 150, 0.5);
 }
 
 .ico-logo{
