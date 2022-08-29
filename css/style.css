@@ -265,6 +265,7 @@ header h1{
 	width: 50%;
 	padding: 10px;
 	background-color: #fbf8f7;
+	z-index: 1000;
 }
 
 .menu-phone ul{
