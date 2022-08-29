@@ -22,11 +22,11 @@ time, mark, audio, video {
 body{
 	font-family: 'Passion One', cursive;
 	padding-top: 80px;
-	background-color: black;
+	background-color: rgb(249, 244, 244);
 	background-image: url(../imagem/mancha.png);
 	background-size: 50%;
 	background-repeat: no-repeat;
-	background-position: 100% 300px;
+	background-position: 00% 100px;
 }
 
 h1, h2, h3, h4, h5, h6{
