@@ -205,6 +205,10 @@ footer p{
 	text-align: center;
 }
 
+.menu-hamburguer{
+	display: none;
+}
+
 #img-rubembraga{
 	margin-top: 0;
 }
@@ -240,7 +244,9 @@ header h1{
 }
 
 .menu-hamburguer{
+	display: block;
 	width: 20px;
+	cursor: pointer;
 }
 }
 
