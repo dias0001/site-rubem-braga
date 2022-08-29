@@ -267,9 +267,19 @@ header h1{
 	background-color: #fbf8f7;
 }
 
-.menu-phone{
+.menu-phone ul{
 	padding: 0;
 	list-style: none;
+}
+.menu-phone ul li, .menu-phone ul li a{
+	display:block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	margin-top: 2px;
+	text-indent: 10px;
+	
 }
 
 
