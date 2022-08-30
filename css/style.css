@@ -48,6 +48,7 @@ header{
 	padding: 10px 0 10px 0;
 	background-color: #f5aa0a;	
 	box-shadow: #622603 0 5px 5px;	
+	z-index: 1000;
 }
 
 header h1{
@@ -257,15 +258,14 @@ header h1{
 	cursor: pointer;
 }
 
-.menu-phone{
-	display: block;
+.menu-phone{	
 	position: fixed;
 	left: 0%;
 	top: 0%;
 	width: 50%;
 	padding: 10px;
 	background-color: #fbf8f7;
-	z-index: 1000;
+	
 }
 
 .menu-phone ul{
