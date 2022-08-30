@@ -204,6 +204,7 @@ footer p{
 	background-color: #900;
 	color:  #fbf8f7;
 	text-align: center;
+	cursor: pointer;
 }
 /*nos desktops o menu hamburguer é oculto*/
 
@@ -237,11 +238,13 @@ footer p{
 /* layout para tablets e celulares */
 @media only screen and (max-width: 992px) {
 	main{
+		width: 100%;
 		flex-direction: column-reverse;
 	}
 	aside, .conteudo, .conteudo-home{
 	width: 90%;
 	margin: 0 auto;
+	justify-content:  left;
 }
 
 nav{
@@ -254,8 +257,9 @@ header h1{
 
 .menu-hamburguer{
 	display: block;
-	width: 20px;
+	width: 40px;
 	cursor: pointer;
+
 }
 
 .menu-phone{	
@@ -283,6 +287,9 @@ header h1{
 	
 }
 
+.fechar{
+	cursor: pointer;
+}
 
 }
 
