@@ -3,7 +3,7 @@
 //cria um novo objeto da classe date
 const tempo = new Date()
 
-const txtData = tempo.getFullYear() + ' - Horas ' + tempo.getHours() + ' : ' + tempo.getMinutes()
+const txtData = tempo.getFullYear() + ' - Horas ' + tempo.getHours() + ' minutos: ' + tempo.getMinutes()
 
 //elementos DOM 
 const spanData = document.getElementById('data')
