@@ -23,8 +23,8 @@ body{
 	font-family: 'Passion One', cursive;
 	padding-top: 80px;
 	background-color: rgb(249, 244, 244);
-	background-image: url(../imagem/rbraga.jpg);
-	background-size: 100%;
+	background-image: url(../imagem/mancha.png);
+	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: 00% 100px;
 }
@@ -78,7 +78,7 @@ nav ul li, nav li a{
 }
 
 nav li a{
-	background-color:rgba(144, 229, 174, 0.9);
+	background-color:rgba(167, 228, 12, 0.9);
 	text-decoration: none;
 	font-size: 15px;
 	color: rgb(22, 21, 21);
@@ -132,7 +132,7 @@ h3{
 aside{
 	padding: 20px;
 	width: 25%;
-	background-color: rgba(164, 118, 9, 0.3);
+	background-color: rgba(50, 245, 73, 0.3);
 	border: 2px solid white;
 	
 }
@@ -155,7 +155,7 @@ footer p{
 
 .conteudo-home{	
 	width: 70%;
-	background-color:  #efd162;
+	background-color:  #07e349;
 	border: 2px solid white;	
 	margin-left: 10px;
 	display: flex;

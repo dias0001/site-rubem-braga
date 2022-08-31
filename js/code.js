@@ -3,12 +3,10 @@
 //cria um novo objeto da classe date
 const tempo = new Date()
 
-const txtData = tempo.getFullYear() + ' - Hora:  ' + tempo.getHours() + ' Minutos: ' + tempo.getMinutes()
+const txtData = tempo.getFullYear() + ' - Horas ' + tempo.getHours() + ' : ' + tempo.getMinutes()
 
 //elementos DOM 
 const spanData = document.getElementById('data')
-const btfechar = document.getElementById('btfechar')
-const divModal = document.getElementById('divModal')
 const bthamburguer = document.getElementById('bthamburguer')
 const navphone = document.getElementById('navphone')
 const btfechahamb = document.getElementById('btfechahamb')
@@ -17,11 +15,7 @@ spanData.innerText = txtData
 
 //ções do usuários (eventos)
 
-//Ao clicar no Id "btfechar"
-btfechar.addEventListener('click', function () {
-    //ocultar o divModal - css display:none por javascript
-    divModal.style.display = 'none'
-})
+
 
 bthamburguer.addEventListener('click', function(){
     navphone.style.display = 'block'
