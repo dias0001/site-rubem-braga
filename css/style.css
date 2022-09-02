@@ -22,8 +22,8 @@ time, mark, audio, video {
 body{
 	font-family: 'Passion One', cursive;
 	padding-top: 80px;
-	background-color: rgb(249, 244, 244);
-	background-image: url(../imagem/mancha.png);
+	background-color: rgb(61, 92, 56);
+	
 	background-size: 50%;
 	background-repeat: no-repeat;
 	background-position: 00% 100px;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 img{
-	width: 100%;
+	width: 100%;		
 }
 
 
@@ -133,9 +133,14 @@ aside{
 	padding: 20px;
 	width: 25%;
 	background-color: rgba(50, 245, 73, 0.3);
-	border: 2px solid white;
+	border: 2px solid white;	
 	
 }
+
+aside img{
+	border: 2px white solid;
+}
+
 
 footer{
 	background-color: rgba(4, 119, 44, 0.9);
